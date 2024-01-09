@@ -1,0 +1,22 @@
+{
+  "name": "design-library",
+  "version": "1.0.0",
+  "description": "Design library with prepared mixins, functions, variables for writing styles for your project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sass": "^1.62.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmittryyyy/design-library.git"
+  },
+  "author": "dmittryyyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmittryyyy/design-library/issues"
+  },
+  "homepage": "https://github.com/dmittryyyy/design-library#readme"
+}
