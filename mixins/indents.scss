@@ -1,0 +1,41 @@
+//Mixin for padding and margin
+//In the case of passing a variable to the mixin,
+// you need to specify 3 as the true parameter.
+
+////////////////////////
+////////Margins////////
+//////////////////////
+@mixin margin($vertical, $horizontal) {
+  margin: $vertical $horizontal;
+}
+
+//Margin vertical
+@mixin margin-v($top, $bottom) {
+  margin-top: $top;
+  margin-bottom: $bottom;
+}
+
+//Margin horizontal
+@mixin margin-h($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+////////////////////////
+////////Paddings////////
+//////////////////////
+@mixin padding($vertical, $horizontal) {
+  padding: $vertical $horizontal;
+}
+
+//Padding vertical
+@mixin padding-v($top, $bottom) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
+
+//Padding horizontal
+@mixin padding-h($left, $right) {
+  padding-left: $left;
+  padding-right: $right;
+}
