@@ -1,5 +1,5 @@
 {
-  "name": "design-library",
+  "name": "design-system-mix",
   "version": "1.0.0",
   "description": "Design library with prepared mixins, functions, variables for writing styles for your project.",
   "main": "index.js",
