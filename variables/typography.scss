@@ -75,13 +75,13 @@ $typo-h4-size-huge: $typo-h4-size-huge-up;
 /// The design system's lead heading's smallest size.
 $typo-lead-size-small-down: 20px;
 /// The design system's lead heading's largest size.
-$typo-lead-size-huge-up: 28px;
+$typo-lead-size-huge-up: 24px;
 /// The design system's lead heading's size on small screens.
-$typo-lead-size-small: _small-sizes-interpolation($typo-lead-size-small-down, 24px);
+$typo-lead-size-small: _small-sizes-interpolation($typo-lead-size-small-down, 18px);
 /// The design system's lead heading's size on medium screens.
-$typo-lead-size-medium: _medium-sizes-interpolation($typo-lead-size-small-down, 24px);
+$typo-lead-size-medium: _medium-sizes-interpolation($typo-lead-size-small-down, 20px);
 /// The design system's lead heading's size on large screens.
-$typo-lead-size-large: _large-sizes-interpolation(24px, $typo-h3-size-huge-up);
+$typo-lead-size-large: _large-sizes-interpolation(20px, $typo-h3-size-huge-up);
 /// The design system's lead heading's size on huge screens.
 $typo-lead-size-huge: $typo-h3-size-huge-up;
 
@@ -112,54 +112,49 @@ $typo-small-size-large: _large-sizes-interpolation($typo-small-size-small-down, 
 $typo-small-size-huge: $typo-small-size-huge-up;
 
 .design-system {
-  --typo-big-h1-size: #{$typo-h1-size-small-down};
+  --typo-h1-size: #{$typo-h1-size-small-down};
   --typo-h2-size: #{$typo-h2-size-small-down};
   --typo-h3-size: #{$typo-h3-size-small-down};
   --typo-h4-size: #{$typo-h4-size-small-down};
-  --typo-h1-size: #{$typo-h1-size-small-down};
   --typo-lead-size: #{$typo-lead-size-small-down};
   --typo-text-size: #{$typo-text-size-small-down};
   --typo-small-size: #{$typo-small-size-small-down};
 
   @include screen-small-up {
-    --typo-big-h1-size: #{$typo-h1-size-small};
+    --typo-h1-size: #{$typo-h1-size-small};
     --typo-h2-size: #{$typo-h2-size-small};
     --typo-h3-size: #{$typo-h3-size-small};
     --typo-h4-size: #{$typo-h4-size-small};
-    --typo-h1-size: #{$typo-h1-size-small};
     --typo-lead-size: #{$typo-lead-size-small};
     --typo-text-size: #{$typo-text-size-small};
     --typo-small-size: #{$typo-small-size-small};
   }
 
   @include screen-medium-up {
-    --typo-big-h1-size: #{$typo-h1-size-medium};
+    --typo-h1-size: #{$typo-h1-size-medium};
     --typo-h2-size: #{$typo-h2-size-medium};
     --typo-h3-size: #{$typo-h3-size-medium};
     --typo-h4-size: #{$typo-h4-size-medium};
-    --typo-h1-size: #{$typo-h1-size-medium};
     --typo-lead-size: #{$typo-lead-size-medium};
     --typo-text-size: #{$typo-text-size-medium};
     --typo-small-size: #{$typo-small-size-medium};
   }
 
   @include screen-large-up {
-    --typo-big-h1-size: #{$typo-h1-size-large};
+    --typo-h1-size: #{$typo-h1-size-large};
     --typo-h2-size: #{$typo-h2-size-large};
     --typo-h3-size: #{$typo-h3-size-large};
     --typo-h4-size: #{$typo-h4-size-large};
-    --typo-h1-size: #{$typo-h1-size-large};
     --typo-lead-size: #{$typo-lead-size-large};
     --typo-text-size: #{$typo-text-size-large};
     --typo-small-size: #{$typo-small-size-large};
   }
 
   @include screen-huge-up {
-    --typo-big-h1-size: #{$typo-h1-size-huge};
+    --typo-h1-size: #{$typo-h1-size-huge};
     --typo-h2-size: #{$typo-h2-size-huge};
     --typo-h3-size: #{$typo-h3-size-huge};
     --typo-h4-size: #{$typo-h4-size-huge};
-    --typo-h1-size: #{$typo-h1-size-huge};
     --typo-lead-size: #{$typo-lead-size-huge};
     --typo-text-size: #{$typo-text-size-huge};
     --typo-small-size: #{$typo-small-size-huge};
