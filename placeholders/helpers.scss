@@ -6,6 +6,13 @@
   @include screen-small-down {
     --width-scrollbar: 0px;
   }
+
+  .root {
+    --width-scrollbar: 8px;
+    @include screen-small-down {
+      --width-scrollbar: 0px;
+    }
+  }
 }
 
 $width-scrollbar: var(--width-scrollbar);
