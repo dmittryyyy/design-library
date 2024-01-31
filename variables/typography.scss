@@ -73,15 +73,15 @@ $typo-h4-size-large: _large-sizes-interpolation(18px, $typo-h4-size-huge-up);
 $typo-h4-size-huge: $typo-h4-size-huge-up;
 
 /// The design system's lead heading's smallest size.
-$typo-lead-size-small-down: 20px;
+$typo-lead-size-small-down: 16px;
 /// The design system's lead heading's largest size.
-$typo-lead-size-huge-up: 24px;
+$typo-lead-size-huge-up: 18px;
 /// The design system's lead heading's size on small screens.
-$typo-lead-size-small: _small-sizes-interpolation($typo-lead-size-small-down, 18px);
+$typo-lead-size-small: _small-sizes-interpolation($typo-lead-size-small-down, 16px);
 /// The design system's lead heading's size on medium screens.
-$typo-lead-size-medium: _medium-sizes-interpolation($typo-lead-size-small-down, 20px);
+$typo-lead-size-medium: _medium-sizes-interpolation($typo-lead-size-small-down, 18px);
 /// The design system's lead heading's size on large screens.
-$typo-lead-size-large: _large-sizes-interpolation(20px, $typo-h3-size-huge-up);
+$typo-lead-size-large: _large-sizes-interpolation(18px, $typo-h3-size-huge-up);
 /// The design system's lead heading's size on huge screens.
 $typo-lead-size-huge: $typo-h3-size-huge-up;
 
