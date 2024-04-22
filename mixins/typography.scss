@@ -21,22 +21,26 @@
 /// A mixin for applying `font-size` and `line-height` values according to the design system for
 /// the big h1 heading.
 @mixin typo-make-h1() {
-  @include typo-make-sizes($typo-h1-size, 4px);
+  @include typo-make-sizes($typo-h1-size, 8px);
 }
 /// A mixin for applying `font-size` and `line-height` values according to the design system for
 /// the h2 heading.
 @mixin typo-make-h2() {
-  @include typo-make-sizes($typo-h2-size, 4px);
+  @include typo-make-sizes($typo-h2-size, 8px);
 }
 /// A mixin for applying `font-size` and `line-height` values according to the design system for
 /// the h3 heading.
 @mixin typo-make-h3() {
-  @include typo-make-sizes($typo-h3-size, 4px);
+  @include typo-make-sizes($typo-h3-size, 8px);
 }
 /// A mixin for applying `font-size` and `line-height` values according to the design system for
 /// the h4 heading.
 @mixin typo-make-h4() {
-  @include typo-make-sizes($typo-h4-size, 4px);
+  @include typo-make-sizes($typo-h4-size, 8px);
+}
+
+@mixin typo-make-h5() {
+  @include typo-make-sizes($typo-h5-size, 8px);
 }
 
 /// A mixin for applying `font-size` and `line-height` values according to the design system for
@@ -48,13 +52,13 @@
 /// A mixin for applying `font-size` and `line-height` values according to the design system for
 /// the base text.
 @mixin typo-make-text {
-  @include typo-make-sizes($typo-text-size);
+  @include typo-make-sizes($typo-text-size, 4px);
 }
 
 /// A mixin for applying `font-size` and `line-height` values according to the design system for
 /// the small text.
 @mixin typo-make-small {
-  @include typo-make-sizes($typo-small-size, 4px);
+  @include typo-make-sizes($typo-small-size, 8px);
 }
 
 /// A mixin for creating a text link with animated underline on hover.

@@ -1,0 +1,15 @@
+@mixin customScrollbar($widthScrollbar, $backgroundScrollbar, $colorScrollbar) {
+  &::-webkit-scrollbar {
+    width: $widthScrollbar;
+  }
+
+  @if $backgroundScrollbar {
+    &::-webkit-scrollbar-track {
+      background-color: $backgroundScrollbar;
+    }
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $colorScrollbar;
+  }
+}
